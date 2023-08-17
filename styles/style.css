@@ -1,0 +1,225 @@
+/* header style start */
+header{
+    margin-left: 120px;
+    margin-top: 85px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-right: 120px;
+    background-color: #fff;
+}
+.header-title{
+    width: 245px;
+    height: 50px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+.menu-bar a{
+    padding-right: 35px;
+    text-decoration: none;
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+}
+/* header style end */
+
+main{
+    /* margin-left: 120px; */
+}
+/* main product style */
+.main-product{
+    margin-top: 145px;
+    margin-left: 120px;
+    display: flex;
+
+}
+.prebook-title{
+    width: 580px;
+    height: 130px;
+    font-family: Poppins;
+    font-size: 52px;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+.prebook-text{
+    width: 500px;
+    height: 60px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+/* button style */
+.button{
+    background-color: #E02C6D;
+    padding: 5px 15px 5px 15px;
+    border-style: none;
+    border-radius: 40px;
+    margin-top: 40px;
+}
+.button a{
+    color: #fff;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.button a i{
+    padding-left: 7px;
+}
+/* button end */
+.main-pic{
+    width: 440px;
+    height: 410px;
+    /* background-color: aquamarine; */
+    margin-top: 20px;
+    margin-left: 180px;
+    /* background-image: url('images/Circle design.svg'); */
+}
+.main-pic .main-camera-pic{
+    width: 400px;
+    height: 390px;
+}
+/* main product style end */
+
+/* logo style */
+.logo{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin-left: 230px;
+    margin-right: 170px;
+    margin-top: 140px;
+}
+.logo .logo-pic{
+    padding-right: 60px;
+}
+    
+/* items style */
+.collection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 135px;
+}
+.collection-title{
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 45px;
+    grid-row-gap: 30px;
+}
+.item{
+    width: 330px;
+    height: 520px;
+    border-radius: 5px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+.item .thumbnail{
+    margin: 15px;
+    padding-top: 15px;
+
+}
+.details{
+    padding-left: 15px;
+}
+.details .title{
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.details .price{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ratings{
+    display: flex;
+
+}
+.ratings .stars{
+    padding-right: 10px;
+}
+.ratings .star{
+    width: 12px;
+    height: 10px;
+    padding-right: 5px;
+    color: #FB8200;
+}
+.ratings .rate{
+    color: #5E6366;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+}
+.feature{
+    margin-top: 20px;
+}
+.feature .feature-text{
+    color: #787885;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+
+/* see more style */
+.more{
+    text-decoration: none;
+    color: #E02C6DDE;
+    margin-top: 50px;
+    margin-left: 490px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+}
+.more i{
+    padding-left: 10px;
+}
+/* items style end */
+
+/* last section */
+.more-products{
+    display: flex;
+    margin-left: 120px;
+    margin-top: 170px;
+}
+.more-products .all-pic{
+    width: 400px;
+    height: 270px;
+    padding-right: 90px;
+    margin-top: 50px;
+}
+.more-products .description .final-title{
+    color: #0A0826;
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 700;
+    margin-top: 0;
+}
+.more-products .description .details-text{
+    width: 500px;
+    height: 150px;
+    color: #6C6C6C;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+#more-button{
+    border-radius: 2px;
+}
