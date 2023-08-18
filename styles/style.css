@@ -8,27 +8,53 @@ header{
     margin-right: 120px;
     background-color: #fff;
 }
+.main-title{
+    
+    color: #3A3A3A;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
 .header-title{
-    width: 245px;
+    width: 345px;
     height: 50px;
     font-family: Poppins;
     font-size: 24px;
     font-weight: 700;
-    color: #3A3A3A;
 }
-.menu-bar a{
+.main-title .three-line{
+    margin-right: 20px;
+    display: none;
+}
+.menubar-lists{
+    display: none;
+}
+/* .menubar-lists{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    list-style: none;
+    background-color: beige;
+    display: none;
+} */
+.menubar-lists li{
+    padding: 15px;
+    padding-left: 0;
+}
+.menu-bar a, .menubar-lists a{
     padding-right: 35px;
     text-decoration: none;
     color: #3A3A3A;
     font-family: Poppins;
     font-size: 16px;
     font-weight: 600;
-}
+   
+}    
+
+
 /* header style end */
 
-main{
-    /* margin-left: 120px; */
-}
+
 /* main product style */
 .main-product{
     margin-top: 145px;
@@ -261,4 +287,254 @@ footer .icon a{
     color: white;
 }
 
+/* mobile view design */
 
+@media only screen and (max-width: 688px) {
+    header{
+        width: 100%;
+        margin-left: 0;
+    }
+    .main-title .three-line{
+        display: block;
+    }
+    .menubar-lists{
+        position: absolute;
+        top: 150px;
+        left: 100px;
+        list-style: none;
+        background-color: beige;
+        /* display: none; */
+    }
+    .three-line-click:hover .menubar-lists{
+        display: block;
+    }
+    .menu-bar{
+        display: none;
+    }
+    #cart{
+        display: block;
+    }
+    main{
+        width: 100%;
+    }
+    .main-product{
+        width: 360px;
+        display: flex;
+        flex-direction: column;
+    }
+    .prebook{
+        order: 2;
+        margin-left: 0;
+    }
+    .prebook-title{
+        margin-left: 0;
+        width: 404px;
+        height: 78px;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 28px;
+        position: relative;
+        top: 50px;
+        left: -100px;
+    }
+    .prebook-text{
+        margin-left: 0;
+        width: 321px;
+        height: 65px;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 14px;
+        position: relative;
+        top: 50px;
+        left: -55px;
+    }
+    .prebook .button{
+        position: relative;
+        top: 50px;
+        left: 30px;
+    }
+    .main-pic{
+        order: 1;
+        width: 200px;
+        height: 190px;
+        position: relative;
+        top: -180px;
+        left: -290px;
+    }
+    .logo{
+        display: none;
+    }
+    .collection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 82px;
+    }
+    .items{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .more{
+        margin-top: 50px;
+        margin-left: 70px;
+    }
+    .more-products{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 0;
+        align-items: center;
+    }
+    .final-title{
+        text-align: center;
+        width: 400px;
+        height: 72px;
+        position: relative;
+        top: -50px;
+        left: 50px;
+    }
+    .details-text{
+        width: 200px;
+        height: 300px;
+        line-height: 5px;
+        position: relative;
+        left: 50px;
+    }
+    #more-button{
+        position: relative;
+        left: 50px;
+
+    }
+    .all-pic{
+        position: relative;
+        left: 50px;
+    }
+    footer{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 689px) and (max-width: 1180px) {
+    header{
+        width: 100%;
+        margin-left: 0;
+    }
+    .main-title .three-line{
+        display: block;
+    }
+    .menubar-lists{
+        position: absolute;
+        top: 150px;
+        left: 100px;
+        list-style: none;
+        background-color: beige;
+        /* display: none; */
+    }
+    .three-line-click:hover .menubar-lists{
+        display: block;
+    }
+    .menu-bar{
+        display: none;
+    }
+    #cart{
+        display: block;
+    }
+    main{
+        width: 100%;
+    }
+    .main-product{
+        width: 360px;
+        display: flex;
+        flex-direction: column;
+    }
+    .prebook{
+        order: 2;
+        margin-left: 0;
+    }
+    .prebook-title{
+        margin-left: 0;
+        width: 504px;
+        height: 78px;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 28px;
+        position: relative;
+        top: 50px;
+        left: 50px;
+    }
+    .prebook-text{
+        margin-left: 0;
+        width: 421px;
+        height: 65px;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 14px;
+        position: relative;
+        top: 50px;
+        left: 80px;
+    }
+    .prebook .button{
+        position: relative;
+        top: 50px;
+        left: 220px;
+    }
+    .main-pic{
+        order: 1;
+        width: 200px;
+        height: 190px;
+        position: relative;
+        top: -180px;
+        left: -80px;
+    }
+    .logo{
+        display: none;
+    }
+    .collection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 30px;
+    }
+    .items{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #last-item{
+        display: none;
+    }
+    .more{
+        margin-top: 50px;
+        margin-left: 70px;
+    }
+    .more-products{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 0;
+        align-items: center;
+    }
+    .final-title{
+        text-align: center;
+        width: 600px;
+        height: 72px;
+        position: relative;
+        top: -50px;
+        left: 50px;
+    }
+    .details-text{
+        width: 600px;
+        height: 300px;
+        line-height: 5px;
+        position: relative;
+        left: 90px;
+    }
+    #more-button{
+        position: relative;
+        left: 90px;
+
+    }
+    .all-pic{
+        position: relative;
+        left: 50px;
+    }
+    footer{
+        width: 100%;
+    }
+}
